@@ -8,7 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mercury-iOS'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
+  s.summary          = 'Mercury 是一个长链工具，基于私有协议，并提供了房间管理、用户管理等功能'
 
   s.homepage         = 'https://github.com/BixinTech/mercury-ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
