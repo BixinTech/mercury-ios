@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Mercury-iOS_Example' do
+  pod 'Mercury-iOS', :path => '../'
+
+  target 'Mercury-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

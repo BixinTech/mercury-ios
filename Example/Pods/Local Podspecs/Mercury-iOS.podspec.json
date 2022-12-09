@@ -1,0 +1,22 @@
+{
+  "name": "Mercury-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of Mercury-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ju Liaoyuan/Mercury-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ju Liaoyuan": "juliaoyuan@bixin.cn"
+  },
+  "source": {
+    "git": "https://github.com/Ju Liaoyuan/Mercury-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Mercury-iOS/Classes/**/*"
+}

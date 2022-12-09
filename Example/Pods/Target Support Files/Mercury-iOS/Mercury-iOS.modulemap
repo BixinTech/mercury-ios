@@ -1,0 +1,6 @@
+framework module Mercury_iOS {
+  umbrella header "Mercury-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

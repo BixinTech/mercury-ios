@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0075E56152AB69D8DE824B2421297131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		026C6937D7391CFFFA2FD4E22D4DAC3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3515D058F161E35A620DDE38F33D2487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		39B2D0D060F59EEDFC320467F7A00EB7 /* Pods-Mercury-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A4F7A6556E1A0AFB304E0B4B469616 /* Pods-Mercury-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EA8773C4C8910290DF8ED5D826344B4 /* Mercury-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35834353B058684DD455A6EFB42AB3F6 /* Mercury-iOS-dummy.m */; };
+		A0A4E6E592F2A524AF5C164890930BF1 /* Pods-Mercury-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F54963D07615AD56E2200DFBD9AF0CF /* Pods-Mercury-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61B2DC5678A5D0FF63C9CC037328983 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 346FC750F087082F6D30B159A33E15A4 /* ReplaceMe.m */; };
+		A6ABF4B0A05E8844E4E76CB70D576399 /* Pods-Mercury-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E23B8ED0764F0720E08C1F99DDC94 /* Pods-Mercury-iOS_Example-dummy.m */; };
+		A7E074089401B6A3BAD05DDE3F46D94A /* Pods-Mercury-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D1F7C16E15C00346084B4E11A9969 /* Pods-Mercury-iOS_Tests-dummy.m */; };
+		EC9BABB4D688FB0FACD260AAD00BF355 /* Mercury-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCAB448B4DE5FD5D373EBE50203F703 /* Mercury-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		427EFE60B72FA9ABBC30B82C8C01D6F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D93202A329DB549718CB79D3D23CB467;
+			remoteInfo = "Pods-Mercury-iOS_Example";
+		};
+		BDAB9FE0C3E515C03BC5B33E4F092A40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39629B5D8E5682528BF90BE771F9B69C;
+			remoteInfo = "Mercury-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001E23B8ED0764F0720E08C1F99DDC94 /* Pods-Mercury-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mercury-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		0C50047619AA54654F1EA5073ACCA36C /* Pods_Mercury_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mercury_iOS_Tests.framework; path = "Pods-Mercury-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CF3A2D59E872672638A7AB6FFA87CF /* Pods-Mercury-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mercury-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		346FC750F087082F6D30B159A33E15A4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "Mercury-iOS/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		35834353B058684DD455A6EFB42AB3F6 /* Mercury-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mercury-iOS-dummy.m"; sourceTree = "<group>"; };
+		3CD8A733B9C661C71511AA0FA726A709 /* Mercury-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Mercury-iOS.modulemap"; sourceTree = "<group>"; };
+		3D63513742A06AA937AB4C13F2979CA3 /* Pods-Mercury-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mercury-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E368BDD4AC0AFA2504397169EA9D703 /* Mercury_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mercury_iOS.framework; path = "Mercury-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8D3275578D132DE2801CF62BEAA006 /* Pods_Mercury_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mercury_iOS_Example.framework; path = "Pods-Mercury-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F54963D07615AD56E2200DFBD9AF0CF /* Pods-Mercury-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mercury-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		60112CA765AA406C3A70E1FAD9341167 /* Pods-Mercury-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mercury-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		686A3DA8F0841E410016017BAFFDEA17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		72A9B9EF6F9BA2AD22E0B64267E3E8FE /* Mercury-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mercury-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FCAB448B4DE5FD5D373EBE50203F703 /* Mercury-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mercury-iOS-umbrella.h"; sourceTree = "<group>"; };
+		8241674017666EB84EE96098C9089739 /* Pods-Mercury-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mercury-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		8D488A58C53DA1C5A4CE55F81D6B0B17 /* Pods-Mercury-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mercury-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		987CDBE773A3270B9CF55D50615E14AD /* Pods-Mercury-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mercury-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4E2F0515092FF312DF78D9BD8762DEC /* Pods-Mercury-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mercury-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AFC33C14E1138E24BCB3ACCB507D924D /* Pods-Mercury-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mercury-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B344E7F702522142F3CDEE1C4B408239 /* Mercury-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mercury-iOS-prefix.pch"; sourceTree = "<group>"; };
+		B9A4F7A6556E1A0AFB304E0B4B469616 /* Pods-Mercury-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mercury-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BAACC6A3145082ECB97F65A4C2DC4A52 /* Pods-Mercury-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mercury-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		BC0BF78680E669A17A4C7564949593AF /* Pods-Mercury-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mercury-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BEC48260E070B9EBADA9268108A333D0 /* Mercury-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mercury-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		C5581CBBEE92472A2287EC8994D3B945 /* Pods-Mercury-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mercury-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C694BD5277E4D8E6733AA09900749DA0 /* Pods-Mercury-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mercury-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4B12DB2343F4B164EB09665BF990AA1 /* Pods-Mercury-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mercury-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E63CACD349B65EC59442C4B9714FF5CE /* Mercury-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Mercury-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF92037689937DDA5B817822A5B034CD /* Mercury-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mercury-iOS-Info.plist"; sourceTree = "<group>"; };
+		F84D1F7C16E15C00346084B4E11A9969 /* Pods-Mercury-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mercury-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		F9CCB9FE87E2A2484DB9B35737E23D7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD6243BA5944CF2669F3609C08F6999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515D058F161E35A620DDE38F33D2487 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0260B3876786835F0136886FEA995F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026C6937D7391CFFFA2FD4E22D4DAC3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B019C402C5750DE1458EFC555AE8F84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0075E56152AB69D8DE824B2421297131 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523BB54914286AB09AC0E78D6011DB33 /* Mercury-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				346FC750F087082F6D30B159A33E15A4 /* ReplaceMe.m */,
+				806CA4A5B1ECC2611FD76EE511674BEA /* Pod */,
+				88596498AF0F41D4A8BE5FE9F0DC8303 /* Support Files */,
+			);
+			name = "Mercury-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A4B1A4389C02F81239EB11069CED54E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7C1301FDA4D587954BE0540BC96493 /* Pods-Mercury-iOS_Example */,
+				5C3052059858A1EB54357411F3F991FC /* Pods-Mercury-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C3052059858A1EB54357411F3F991FC /* Pods-Mercury-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BAACC6A3145082ECB97F65A4C2DC4A52 /* Pods-Mercury-iOS_Tests.modulemap */,
+				C694BD5277E4D8E6733AA09900749DA0 /* Pods-Mercury-iOS_Tests-acknowledgements.markdown */,
+				D4B12DB2343F4B164EB09665BF990AA1 /* Pods-Mercury-iOS_Tests-acknowledgements.plist */,
+				F84D1F7C16E15C00346084B4E11A9969 /* Pods-Mercury-iOS_Tests-dummy.m */,
+				60112CA765AA406C3A70E1FAD9341167 /* Pods-Mercury-iOS_Tests-Info.plist */,
+				B9A4F7A6556E1A0AFB304E0B4B469616 /* Pods-Mercury-iOS_Tests-umbrella.h */,
+				8D488A58C53DA1C5A4CE55F81D6B0B17 /* Pods-Mercury-iOS_Tests.debug.xcconfig */,
+				A4E2F0515092FF312DF78D9BD8762DEC /* Pods-Mercury-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-Mercury-iOS_Tests";
+			path = "Target Support Files/Pods-Mercury-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		806CA4A5B1ECC2611FD76EE511674BEA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				686A3DA8F0841E410016017BAFFDEA17 /* LICENSE */,
+				E63CACD349B65EC59442C4B9714FF5CE /* Mercury-iOS.podspec */,
+				F9CCB9FE87E2A2484DB9B35737E23D7E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		88596498AF0F41D4A8BE5FE9F0DC8303 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CD8A733B9C661C71511AA0FA726A709 /* Mercury-iOS.modulemap */,
+				35834353B058684DD455A6EFB42AB3F6 /* Mercury-iOS-dummy.m */,
+				EF92037689937DDA5B817822A5B034CD /* Mercury-iOS-Info.plist */,
+				B344E7F702522142F3CDEE1C4B408239 /* Mercury-iOS-prefix.pch */,
+				7FCAB448B4DE5FD5D373EBE50203F703 /* Mercury-iOS-umbrella.h */,
+				72A9B9EF6F9BA2AD22E0B64267E3E8FE /* Mercury-iOS.debug.xcconfig */,
+				BEC48260E070B9EBADA9268108A333D0 /* Mercury-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Mercury-iOS";
+			sourceTree = "<group>";
+		};
+		AA7C1301FDA4D587954BE0540BC96493 /* Pods-Mercury-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8241674017666EB84EE96098C9089739 /* Pods-Mercury-iOS_Example.modulemap */,
+				AFC33C14E1138E24BCB3ACCB507D924D /* Pods-Mercury-iOS_Example-acknowledgements.markdown */,
+				BC0BF78680E669A17A4C7564949593AF /* Pods-Mercury-iOS_Example-acknowledgements.plist */,
+				001E23B8ED0764F0720E08C1F99DDC94 /* Pods-Mercury-iOS_Example-dummy.m */,
+				987CDBE773A3270B9CF55D50615E14AD /* Pods-Mercury-iOS_Example-frameworks.sh */,
+				32CF3A2D59E872672638A7AB6FFA87CF /* Pods-Mercury-iOS_Example-Info.plist */,
+				5F54963D07615AD56E2200DFBD9AF0CF /* Pods-Mercury-iOS_Example-umbrella.h */,
+				C5581CBBEE92472A2287EC8994D3B945 /* Pods-Mercury-iOS_Example.debug.xcconfig */,
+				3D63513742A06AA937AB4C13F2979CA3 /* Pods-Mercury-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-Mercury-iOS_Example";
+			path = "Target Support Files/Pods-Mercury-iOS_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FF4C9D420A01EE11AA75343118BD5138 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EE120D2906A0E8CBD2820F88521E4C1A /* Products */,
+				5A4B1A4389C02F81239EB11069CED54E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE120D2906A0E8CBD2820F88521E4C1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E368BDD4AC0AFA2504397169EA9D703 /* Mercury_iOS.framework */,
+				4D8D3275578D132DE2801CF62BEAA006 /* Pods_Mercury_iOS_Example.framework */,
+				0C50047619AA54654F1EA5073ACCA36C /* Pods_Mercury_iOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4C9D420A01EE11AA75343118BD5138 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				523BB54914286AB09AC0E78D6011DB33 /* Mercury-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		241057846B301AFA7C3BCA3669DD7DC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A4E6E592F2A524AF5C164890930BF1 /* Pods-Mercury-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E3939BD2602F348E057F1AA556FFD1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9BABB4D688FB0FACD260AAD00BF355 /* Mercury-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25B78CF62C1D2799094EEEA9575D79A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B2D0D060F59EEDFC320467F7A00EB7 /* Pods-Mercury-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39629B5D8E5682528BF90BE771F9B69C /* Mercury-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E8F3E38179A7D577A3D46898D5113B /* Build configuration list for PBXNativeTarget "Mercury-iOS" */;
+			buildPhases = (
+				9E3939BD2602F348E057F1AA556FFD1D /* Headers */,
+				C9EE7181AE979B4DCF84950D996B1CE8 /* Sources */,
+				B019C402C5750DE1458EFC555AE8F84B /* Frameworks */,
+				407133C0F0F1194234C0F994F7836D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mercury-iOS";
+			productName = "Mercury-iOS";
+			productReference = 3E368BDD4AC0AFA2504397169EA9D703 /* Mercury_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D854C968AD2F4871B6117FCAA1BAA586 /* Pods-Mercury-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51F24A5B206EF0D8752EB22070790A6E /* Build configuration list for PBXNativeTarget "Pods-Mercury-iOS_Tests" */;
+			buildPhases = (
+				E25B78CF62C1D2799094EEEA9575D79A /* Headers */,
+				935406076A17D4FABCDF95DBC9663F63 /* Sources */,
+				5D0260B3876786835F0136886FEA995F /* Frameworks */,
+				DF0AB4F3BD2A229C70E1141D7BDBDEB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E6BF57CFE21BB53E08FBAF472AE2498 /* PBXTargetDependency */,
+			);
+			name = "Pods-Mercury-iOS_Tests";
+			productName = "Pods-Mercury-iOS_Tests";
+			productReference = 0C50047619AA54654F1EA5073ACCA36C /* Pods_Mercury_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D93202A329DB549718CB79D3D23CB467 /* Pods-Mercury-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9881D79922B04F99E597983961BC4A37 /* Build configuration list for PBXNativeTarget "Pods-Mercury-iOS_Example" */;
+			buildPhases = (
+				241057846B301AFA7C3BCA3669DD7DC2 /* Headers */,
+				A400E671BD619BE733B74147AFC7C1A7 /* Sources */,
+				2DD6243BA5944CF2669F3609C08F6999 /* Frameworks */,
+				E59DA9C21081CED469537D0CA1567E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CB6147381F211102FA60E09C776BBB /* PBXTargetDependency */,
+			);
+			name = "Pods-Mercury-iOS_Example";
+			productName = "Pods-Mercury-iOS_Example";
+			productReference = 4D8D3275578D132DE2801CF62BEAA006 /* Pods_Mercury_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EE120D2906A0E8CBD2820F88521E4C1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39629B5D8E5682528BF90BE771F9B69C /* Mercury-iOS */,
+				D93202A329DB549718CB79D3D23CB467 /* Pods-Mercury-iOS_Example */,
+				D854C968AD2F4871B6117FCAA1BAA586 /* Pods-Mercury-iOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		407133C0F0F1194234C0F994F7836D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0AB4F3BD2A229C70E1141D7BDBDEB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59DA9C21081CED469537D0CA1567E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		935406076A17D4FABCDF95DBC9663F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E074089401B6A3BAD05DDE3F46D94A /* Pods-Mercury-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A400E671BD619BE733B74147AFC7C1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6ABF4B0A05E8844E4E76CB70D576399 /* Pods-Mercury-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EE7181AE979B4DCF84950D996B1CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA8773C4C8910290DF8ED5D826344B4 /* Mercury-iOS-dummy.m in Sources */,
+				A61B2DC5678A5D0FF63C9CC037328983 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E6BF57CFE21BB53E08FBAF472AE2498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Mercury-iOS_Example";
+			target = D93202A329DB549718CB79D3D23CB467 /* Pods-Mercury-iOS_Example */;
+			targetProxy = 427EFE60B72FA9ABBC30B82C8C01D6F7 /* PBXContainerItemProxy */;
+		};
+		A2CB6147381F211102FA60E09C776BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mercury-iOS";
+			target = 39629B5D8E5682528BF90BE771F9B69C /* Mercury-iOS */;
+			targetProxy = BDAB9FE0C3E515C03BC5B33E4F092A40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FD0800BE5A68C4343E9B4DA68049B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC48260E070B9EBADA9268108A333D0 /* Mercury-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mercury-iOS/Mercury-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mercury-iOS/Mercury-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mercury-iOS/Mercury-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Mercury_iOS;
+				PRODUCT_NAME = Mercury_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47386309221E6BC320715434E6D480A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5581CBBEE92472A2287EC8994D3B945 /* Pods-Mercury-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mercury-iOS_Example/Pods-Mercury-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mercury-iOS_Example/Pods-Mercury-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E76E3AEB222CE359F6DAF21A111E853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D63513742A06AA937AB4C13F2979CA3 /* Pods-Mercury-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mercury-iOS_Example/Pods-Mercury-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mercury-iOS_Example/Pods-Mercury-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		95582B0FE83C57A2C8CF52AE760D6004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D488A58C53DA1C5A4CE55F81D6B0B17 /* Pods-Mercury-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mercury-iOS_Tests/Pods-Mercury-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mercury-iOS_Tests/Pods-Mercury-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2A683B6E4F29286051C55ED3D7D3740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E2F0515092FF312DF78D9BD8762DEC /* Pods-Mercury-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mercury-iOS_Tests/Pods-Mercury-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mercury-iOS_Tests/Pods-Mercury-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAE39C6919F3C80C1C72C818AC7244EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A9B9EF6F9BA2AD22E0B64267E3E8FE /* Mercury-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mercury-iOS/Mercury-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mercury-iOS/Mercury-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mercury-iOS/Mercury-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Mercury_iOS;
+				PRODUCT_NAME = Mercury_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E8F3E38179A7D577A3D46898D5113B /* Build configuration list for PBXNativeTarget "Mercury-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE39C6919F3C80C1C72C818AC7244EB /* Debug */,
+				2FD0800BE5A68C4343E9B4DA68049B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51F24A5B206EF0D8752EB22070790A6E /* Build configuration list for PBXNativeTarget "Pods-Mercury-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95582B0FE83C57A2C8CF52AE760D6004 /* Debug */,
+				A2A683B6E4F29286051C55ED3D7D3740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9881D79922B04F99E597983961BC4A37 /* Build configuration list for PBXNativeTarget "Pods-Mercury-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47386309221E6BC320715434E6D480A7 /* Debug */,
+				4E76E3AEB222CE359F6DAF21A111E853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

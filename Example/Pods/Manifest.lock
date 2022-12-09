@@ -1,0 +1,16 @@
+PODS:
+  - Mercury-iOS (0.1.0)
+
+DEPENDENCIES:
+  - Mercury-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  Mercury-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mercury-iOS: beb334a4c1983d860e3ed546354c2b7cc885edee
+
+PODFILE CHECKSUM: 8d452ae87584093756d4830378250f71202c2110
+
+COCOAPODS: 1.10.2
