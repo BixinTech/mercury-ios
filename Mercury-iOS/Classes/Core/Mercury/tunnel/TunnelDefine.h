@@ -3,8 +3,8 @@
 #include <vector>
 #include <functional>
 #include <string>
-#include "../utils/Constants.h"
-#include "../utils/MessageIdGenerator.h"
+#include "Constants.h"
+#include "MessageIdGenerator.h"
 
 namespace mercury {
 struct Address

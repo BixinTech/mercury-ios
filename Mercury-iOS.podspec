@@ -17,8 +17,19 @@ Pod::Spec.new do |s|
   s.author           = { 'Ju Liaoyuan' => 'juliaoyuan@bixin.cn' }
   s.source           = { :git => 'https://github.com/BixinTech/mercury-ios.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
+  
 
+  s.libraries = "stdc++"
+  
   s.source_files = 'Mercury-iOS/Classes/**/*'
-  s.vendored_frameworks = "Mercury-iOS/Frameworks/*" 
+  s.public_header_files = 'Mercury-iOS/Classes/**/*.h'
+  s.vendored_frameworks = 'Mercury-iOS/Frameworks/*'
+
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
+
+  s.dependency 'AFNetworking'
+
 end

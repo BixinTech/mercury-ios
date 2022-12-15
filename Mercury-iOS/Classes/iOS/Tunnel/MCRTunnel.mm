@@ -74,29 +74,29 @@ static inline NSError * timeout() {
 
 - (void)setupTunnelCallback {
 
-    __weak typeof(self) _weakSelf = self;
+    __weak __typeof(self) _weakSelf = self;
     self->_callBack->SetRecieveCallback([=](TunnelMessage message){
-        __strong typeof(_weakSelf) _strongSelf = _weakSelf;
+        __strong __typeof(_weakSelf) _strongSelf = _weakSelf;
         dispatch_async(_strongSelf.completedQueue, ^{
-            __strong typeof(_weakSelf) _strongSelf = _weakSelf;
+            __strong __typeof(_weakSelf) _strongSelf = _weakSelf;
             [_strongSelf onMessage:message];
         });
     });
     
     self->_callBack->SetNetworkStatusCallback([=](NetStatus status){
-        __strong typeof(_weakSelf) _strongSelf = _weakSelf;
+        __strong __typeof(_weakSelf) _strongSelf = _weakSelf;
         dispatch_async(_strongSelf.completedQueue, ^{
             [_strongSelf onTunnelStatus:status];
         });
     });
     self->_callBack->SetLogCallback([=](std::string log){
-        __strong typeof(_weakSelf) _strongSelf = _weakSelf;
+        __strong __typeof(_weakSelf) _strongSelf = _weakSelf;
         dispatch_async(_strongSelf.completedQueue, ^{
             [_strongSelf onLog:log];
         });
     });
     self->_callBack->SetLoginCallback([=](LoginInfo& info){
-        __strong typeof(_weakSelf) _strongSelf = _weakSelf;
+        __strong __typeof(_weakSelf) _strongSelf = _weakSelf;
 
         MCRConfigurator *config = [MCRConfigurator configurator];
         info.platform = 1;
@@ -133,7 +133,7 @@ static inline NSError * timeout() {
     });
     
     self->_callBack->SetHandStatisticsCallback([=](TunnelStatisticsResult result) {
-        __strong typeof(_weakSelf) _strongSelf = _weakSelf;
+        __strong __typeof(_weakSelf) _strongSelf = _weakSelf;
         NSInteger commandCode = (NSInteger )result.type_;
         [_strongSelf pvWithCommandCode:commandCode code:result.errorCode_ responseTime:result.timeUsing_ uploadSample:result.reportRate_];
     });
@@ -245,9 +245,9 @@ static inline NSError * timeout() {
             [self.timeoutTimer invalidate];
             self.timeoutTimer = nil;
         }
-        __weak typeof(self) _weakSelf = self;
+        __weak __typeof(self) _weakSelf = self;
         self.timeoutTimer = [NSTimer scheduledTimerWithTimeInterval:3 repeats:true block:^(NSTimer * _Nonnull timer) {
-            __strong typeof(_weakSelf) _strongSelf = _weakSelf;
+            __strong __typeof(_weakSelf) _strongSelf = _weakSelf;
             [_strongSelf checkTimeoutMessage];
         }];
     });
