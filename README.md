@@ -1,5 +1,7 @@
 # Mercury-iOS
 
+![](https://img.shields.io/badge/Pod-v1.0.0-brightgreen)
+
 Mercury 基于 C++ boost 的 asio，使用私有协议，构建了一套自建长链。包含了通道建连，消息收发（支持 twoway），ack 机制，房间管理，错误处理等核心功能。在比心，Mercury 经过了两年多的线上业务验证，现在已经在比心全系列 App 中使用。
 
 # Get Started
